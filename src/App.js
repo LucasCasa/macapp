@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import SchoolPride from './confetti.js';
 
 function App() {
   return (
     <section className="header">
+    <SchoolPride/>
       <div className="title-wrapper">
         <h1 className="sweet-title waviy">
           <span styles="--i:2" data-text="Felicitaciones">Felicitaciones</span>
