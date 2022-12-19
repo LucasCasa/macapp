@@ -22,7 +22,7 @@ export default class SchoolPride extends React.Component {
   makeShot = (angle, originX) => {
     this.animationInstance &&
       this.animationInstance({
-        particleCount: 5,
+        particleCount: 3,
         angle,
         spread: 55,
         origin: { x: originX },
